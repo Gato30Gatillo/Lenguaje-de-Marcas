@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.container img{
+    width: 125px;
+    align-items: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+header{
+    width: 100%;
+    padding-top: 10px;
+    background-color: orange;
+    height: 75px;
+}
+
+nav{
+    background-color: orange;
+    height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+}
+
+.container ul:first-child li a{
+    
+    width: 50%;
+    height: 28px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 7px;
+    padding-top: 10px;
+}
+
+.container ul:first-child a:hover{
+    background-color: rgb(127, 127, 255);
+}
+
+h2{
+    text-align: center;
+    color: rgb(26, 143, 151);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#skills li:nth-last-child(1){
+color: white;
+background-color: orange;
+width: 200px;
+margin-left: 40px;
+border-radius: 5px;
+text-align: center;
+padding-top: 5px;
+
+}
+#skills li:nth-last-child(2){
+color: white;
+background-color: orange;
+width: 100px;
+margin-left: 40px;
+border-radius: 5px;
+text-align: center;
+padding-top: 5px;
+
+}
+#skills li:nth-last-child(4){
+    color: white;
+    background-color: orange;
+    width: 100px;
+    margin-left: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+#skills li:nth-last-child(5){
+    color: white;
+    background-color: orange;
+    width: 150px;
+    margin-left: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#skills li:nth-last-child(3){
+    color: white;
+    background-color: orange;
+    width: 125px;
+    margin-left: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+#skills ul{
+    display: inline-flex;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+#skills li{
+    height: 25px;
+}
+
+#skills li:hover{
+    background-color: rgb(127, 127, 255);
+}
+
+footer{
+    margin-top: 20px;
+    background-color: rgb(127, 127, 255);
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+:any-link{
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}

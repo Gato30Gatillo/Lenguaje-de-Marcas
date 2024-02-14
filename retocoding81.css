@@ -1,0 +1,14 @@
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2{
+    font-family: "Bergdool";
+}
+
+@font-face {
+    font-family: Bergdool;
+    src: url(Bergdool-w1EmZ.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
